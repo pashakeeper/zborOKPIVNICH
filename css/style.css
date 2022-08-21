@@ -54,7 +54,7 @@ table {
 }
 
 body {
-	font-family: 'DynaPuff', cursive;
+	font-family: 'DynaPuff',Helvetica, cursive;
 	background: url('../img/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;

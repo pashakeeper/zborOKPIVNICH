@@ -237,7 +237,17 @@ footer a {
 
 
 
+@media (max-width: 522px) {
+	.container {
+		width: auto;
+	}
+	.offer {
 
+	}
+	footer p,.offer p {
+		font-size: 13px;
+	}
+}
 
 
 

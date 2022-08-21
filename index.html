@@ -4,29 +4,66 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Збір для "ОК ПІВНІЧ"</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<div id="particles-js"></div>
 	<header>
 		<a href="#" class="logo">
-			<img src="" alt="">
+			<img src="img/logo.jpg" alt="logo">
+			"ДІЮЧИ ПО СОВІСТІ"
 		</a>
-		"ДІЮЧИ ПО СОВІСТІ"
+		<ul class="nav">
+			<li>
+				<a href="https://www.facebook.com/%D0%94%D1%96%D1%8E%D1%87%D0%B8-%D0%BF%D0%BE-%D1%81%D0%BE%D0%B2%D1%96%D1%81%D1%82%D1%96-101765158778773" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/pashka_keeper/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://t.me/+380733458418" target="_blank">
+					<i class="fab fa-telegram"></i>
+				</a>
+			</li>
+		</ul>
 	</header>
-<section class="main">
-	<div class="container">
-		<div class="offer">
-			<p></p>
-			<a href="#" class="copy"></a>
+	<section class="main">
+		<div class="container">
+			<h1 class="title">Рахунки для донатів</h1>
+			<p class="des">Просто нажміть на кнопку Копіювати</p>
+			<p class="offer_des">Мультивалютний рахунок IBAN:</p>
+			<div class="offer iban">
+				<p id="iban">UA873282090000026004000020700</p>
+				<a href="#" class="copy iban" title="Копіювати"><i class="fa fa-clone"></i></a>
+			</div>
+			<p class="succsess">Данні скопійовані</p>
+			<p class="offer_des">Власна Картка (Олександр Котенко)</p>
+			<div class="offer card">
+				<p id="card">5375414133263300</p>
+				<a href="#" class="copy card" title="Копіювати"><i class="fa fa-clone"></i></a>
+			</div>
+			<p class="offer_des">МоноБанка</p>
+			<div class="offer mono">
+				<a href="https://send.monobank.ua/jar/8twPh3qbZB" target="_blank">Банка (Тисни тут)</a>
+			</div>
+
 		</div>
-	</div>
-</section>
-<footer>
-	
-</footer>
+	</section>
+	<footer>
+		<p class="copyright">© 2022 Діючий по совісті</p>
+		<p class="author">Зроблено <a href="#">Pasha Keeper</a></p>
+	</footer>
 
 	<script src="js/jquery.min.js"></script>
+	<script src="js/particles.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

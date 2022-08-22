@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
   $('.copy.card').click(function() {
       var $temp = $("<input>");
       $("body").append($temp);
-      $temp.val($('#iban').text()).select();
+      $temp.val($('#card').text()).select();
       document.execCommand("copy");
       $temp.remove();
       $('.succsess').fadeIn('slow').delay(2000).fadeOut('slow');

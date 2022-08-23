@@ -16,4 +16,12 @@ jQuery(document).ready(function($) {
       $temp.remove();
       $('.succsess').fadeIn('slow').delay(2000).fadeOut('slow');
   });
+  $('.copy.paypal').click(function() {
+      var $temp = $("<input>");
+      $("body").append($temp);
+      $temp.val($('#paypal').text()).select();
+      document.execCommand("copy");
+      $temp.remove();
+      $('.succsess').fadeIn('slow').delay(2000).fadeOut('slow');
+  });
 });
